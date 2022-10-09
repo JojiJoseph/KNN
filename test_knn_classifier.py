@@ -20,4 +20,4 @@ from sklearn.neighbors import KNeighborsClassifier
 clf = KNeighborsClassifier()
 clf.fit(X_train, y_train)
 predicted = clf.predict(X_test)
-print(classification_report(y_test, predicted))
+print(classification_report(y_test.flatten, predicted))

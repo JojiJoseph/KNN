@@ -2,5 +2,5 @@
 
 ## TODO
 - [x] Classifier
-- [ ] Regressor
+- [x] Regressor
 - [ ] KD Tree
